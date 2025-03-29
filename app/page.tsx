@@ -105,7 +105,7 @@ const data = {
             <FadeIn direction="left" duration={0.7} delay={0.2}>
             <div className="flex items-center justify-center">
   <motion.div
-    className="relative h-[350px] w-[350px] md:h-[450px] md:w-[450px] flex items-center justify-center"
+    className="relative h-[350px] w-[350px] md:h-[250px] md:w-[250px] flex items-center justify-center"
     animate={{
       rotateZ: [0, 2, 0, -2, 0],
     }}

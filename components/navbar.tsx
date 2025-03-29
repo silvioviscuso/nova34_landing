@@ -146,10 +146,12 @@ export function Navbar() {
             </Link>
           </Button>
           {stars !== null && (
-            <div className="text-sm font-medium px-3 py-1 border rounded-md">
-              ⭐ {stars}
-            </div>
-          )}
+  <div className="text-sm font-medium px-1.5 py-2 border rounded-md flex justify-center items-center" style={{ padding: '8px 6px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    ⭐ {stars}
+  </div>
+)}
+
+
         </div>
       </div>
     </motion.header>
