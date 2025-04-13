@@ -200,7 +200,7 @@ const data = {
         <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
           <CardHeader className="pb-2">
             <Monitor className="h-6 w-6 mb-2 text-primary" />
-            <CardTitle>Display OLED</CardTitle>
+            <CardTitle>Display LCD</CardTitle>
           </CardHeader>
         </Card>
       </StaggerItem>
